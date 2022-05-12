@@ -1,0 +1,15 @@
+[ghq]
+	root = ~/git
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	pushf = push --force-with-lease
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[user]
+	name = Shin Uozumi
+	email = sinozu@users.noreply.github.com
+[push]
+	default = current
